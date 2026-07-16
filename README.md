@@ -50,6 +50,9 @@ This is the heavy lifter. It handles hyperparameter tuning via Hyperband, embarg
 ### Step 3: Architectural Ablation Study
 **Script:** `Abalation_study.py`
 This script systematically disables components of the M5 architecture (CBAM attention blocks, residual connections, ConvLSTM bottleneck) to quantify exactly what each piece contributes. 
+
+> **Parallel Execution Note:** While this script imports its deep learning layers directly from the Step 2 script to guarantee architectural consistency, its training loops are computationally independent. If you have access to multiple GPU nodes, **Step 2 and Step 3 can be executed simultaneously in parallel.**
+
 *   **To train a week:** `python Abalation_study.py --week 1`
 *   **To plot the results:** Run `python Abalation_study.py --combine` once all four weeks are finished. It calculates paired seasonal block-bootstrap statistics and outputs the temporal decay figures.
 
