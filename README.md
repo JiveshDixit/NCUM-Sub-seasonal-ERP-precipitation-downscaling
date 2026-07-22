@@ -87,8 +87,7 @@ python figures/Unified_threshold_based_skill_scores.py
 
 GPU training is not bit-reproducible: cuDNN accumulates gradients in a
 non-deterministic order. A single re-training reproduces the published skill
-to within the noise floor of Table S3, which is 1.11 mm week⁻¹ (MAE), 0.023
-(Spearman), 0.015 (FSS at p66) and 0.025 (NMAE), worst case across lead weeks.
+to within the noise floor of Table S3.
 
 ## Citation
 
