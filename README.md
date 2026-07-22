@@ -1,4 +1,4 @@
-# Two-stage deep learning for subseasonal Indian monsoon rainfall
+# Two-stage deep learning for downscaling NCUM subseasonal Indian monsoon rainfall
 
 Source code for the manuscript *Enhancing Subseasonal Predictability of Indian
 Monsoon Rainfall Using Deep Learning and Variance-Restoring Post-Processing*
