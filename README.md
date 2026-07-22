@@ -21,8 +21,7 @@ Two external datasets are required. Neither is redistributed here.
 - **IMD 0.25° gridded rainfall**, JJAS 1993 to 2015, weekly aggregates named
   `IMD_week*_sum_25km_on_model_t.nc`. From the India Meteorological Department
   Pune (`https://imdpune.gov.in/`).
-- **NCUM extended-range hindcast**, same seasons, week 1 to week 4 lead, named
-  `NCUM_erpAX_week*.nc`. These are not publicly hosted; access can be requested
+- **NCUM extended-range hindcast** is not publicly hosted; access can be requested
   from the Head, NCMRWF (`https://www.nwp.ncmrwf.gov.in/`).
 
 Set the data paths at the top of the pipeline and feature-selection scripts
