@@ -2,13 +2,13 @@
 
 Source code for the manuscript *Enhancing Subseasonal Predictability of Indian
 Monsoon Rainfall Using Deep Learning and Variance-Restoring Post-Processing*
-(Dixit et al., in review at GRL).
+<!--(Dixit et al., in review at GRL). -->
 
 ## Layout
 
 ```
 feature_selection/    XGBoost predictor selection -> Table S1
-pipeline/             training, inference, seed replicates, control arm
+training/             training, inference, seed replicates, control arm
 scoring/              reads .nc predictions, writes tables
 ablation/             architectural ablation -> Table S2
 figures/              reads .nc predictions, writes .png
